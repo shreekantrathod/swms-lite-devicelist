@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPMapActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:weightSum="12">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/loginHeader"
+                android:text="OTP"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+            <TextView
+                android:id="@+id/messages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/loginHeader"
+                android:text=""
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+       <!-- <EditText
+            android:id="@+id/editTextmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="Mobile"
+            android:inputType="text" />
+-->
+        <EditText
+            android:id="@+id/editTextOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="OTP Number"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/otpSubmit"
+            style="@style/loginButton"
+            android:text="Submit"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+        />
+        <TextView
+            android:id="@+id/resendOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"
+            android:text="@string/resend_otp"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:gravity="end" />
+        <!-- <TextView
+             android:id="@+id/textViewRegister"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="8dp"
+
+             android:textAlignment="textEnd"
+             android:textStyle="bold"
+             android:textColor="@color/primaryTextColor"
+             android:text="@string/login_signup_hint"
+             android:layout_marginTop="@dimen/loginViewsMargin"/> />-->
+
+    </LinearLayout>
+
+    <!--<ProgressBar
+    android:visibility="gone"
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true" />-->
+</RelativeLayout>
+
+  <!--  <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+        android:textSize="17sp"
+        />
+<TextView
+    android:id="@+id/output"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/start"
+    android:layout_centerHorizontal="true"
+    android:textSize="17sp"
+    android:layout_marginTop="30dp"
+    />-->
+

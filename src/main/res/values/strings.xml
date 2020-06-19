@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SWMSLite</string>
+
+   <!-- <string name="device1">Device1</string>
+    <string name="device2">Device2</string>
+    <string name="device3">Device3</string>
+    <string name="device4">Device4</string>
+    <string name="device5">Device5</string>
+    <string name="device6">Device6</string>
+-->
+    <string name="repeat">Repeat</string>
+    <!--Splash Screen -->
+    <string name="splash_swms">JALASINCHANA</string>
+    <string name="splash_from">from</string>
+    <string name="splash_ortusolis">ORTUSOLIS</string>
+    <!--week days-->
+    <string-array name="week_days">
+        <item name="sun">Sunday</item>
+        <item name="mon">Monday</item>
+        <item name="tue">Tuesday</item>
+        <item name="wen">Wednesday</item>
+        <item name="thu">Thursday</item>
+        <item name="fri">Friday</item>
+        <item name="sat">Saturday</item>
+    </string-array>
+
+    <string name="resend_otp">Resend</string>
+</resources>
